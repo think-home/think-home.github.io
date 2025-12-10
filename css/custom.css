@@ -1,0 +1,30 @@
+/* 自定义样式 - 增大导航栏字体和图标 */
+
+/* 导航栏链接字体大小 */
+.main-nav-link {
+  font-size: 20px !important; /* 默认通常是 14px，这里改为 18px */
+  font-weight: 400 !important; /* 可以加粗一点 */
+}
+
+/* 导航栏图标大小 */
+.nav-icon {
+  font-size: 20px !important; /* 默认通常是 14px，这里改为 20px */
+  width: 24px !important;
+  height: 24px !important;
+}
+
+/* 导航栏图标内的 Font Awesome 图标 */
+.nav-icon .fa {
+  font-size: 20px !important;
+}
+
+/* 如果需要调整导航栏链接的间距 */
+.main-nav-link {
+  padding: 20px 20px !important; /* 增加左右内边距 */
+}
+
+/* 如果需要调整图标链接的间距 */
+.nav-icon {
+  padding: 20px 18px !important; /* 增加左右内边距 */
+}
+
