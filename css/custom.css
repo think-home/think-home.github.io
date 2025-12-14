@@ -28,3 +28,44 @@
   padding: 20px 18px !important; /* 增加左右内边距 */
 }
 
+/* 优化文章标题样式 */
+.article-title {
+  font-size: 28px !important;
+  font-weight: 600 !important;
+  margin-bottom: 20px !important;
+  color: #333 !important;
+}
+
+/* 优化文章内容样式 */
+.article-entry {
+  font-size: 16px !important;
+  line-height: 1.8 !important;
+  color: #444 !important;
+}
+
+/* 添加阅读进度条 */
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background-color: #337ab7;
+  z-index: 9999;
+  transition: width 0.1s ease;
+}
+
+/* 添加页脚样式 */
+.footer {
+  padding: 30px 0 !important;
+  text-align: center !important;
+  background-color: #f5f5f5 !important;
+  border-top: 1px solid #eee !important;
+}
+
+/* 优化代码块样式 */
+/* pre {
+  font-size: 14px !important;
+  border-radius: 4px !important;
+  padding: 15px !important;
+  background-color: #f8f8f8 !important;
+} */
